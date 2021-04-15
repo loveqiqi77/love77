@@ -78,7 +78,7 @@ let txje = txsz[hltxje]
           console.log(`\n 开始【葫芦音乐${$.index}】`)
           await hlyylb();
           await $.wait(1000);
-          await hlyyqd()
+          /*await hlyyqd()
           await $.wait(3000);
           await hlyyqdfb()
           await $.wait(3000);
@@ -93,12 +93,12 @@ let txje = txsz[hltxje]
           await hlyytg()
           await $.wait(3000);
           await hlyytgfb()
-          await $.wait(3000);
+          await $.wait(3000);*/
           await hlyyzslb()
           await $.wait(3000);
-          await hlyyzs()
-          await $.wait(3000);
-          await hlyyxx()
+         // await hlyyzs()
+          //await $.wait(3000);
+          //await hlyyxx()
           await hlyyme()
           await hlyytx()
   }
