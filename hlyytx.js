@@ -78,27 +78,27 @@ let txje = txsz[hltxje]
           console.log(`\n 开始【葫芦音乐${$.index}】`)
           await hlyylb();
           await $.wait(1000);
-          await hlyyqd()
-          await $.wait(3000);
-          await hlyyqdfb()
-          await $.wait(3000);
-          await hlyygg()
-          await $.wait(3000);
-          await hlyysp()
-          await $.wait(3000);
-          await hlyyfx()
-          await $.wait(3000);
-          await hlyyfxpj()
-          await $.wait(3000);
-          await hlyytg()
-          await $.wait(3000);
-          await hlyytgfb()
-          await $.wait(3000);
+          //await hlyyqd()
+          //await $.wait(3000);
+          //await hlyyqdfb()
+          //await $.wait(3000);
+          //await hlyygg()
+         // await $.wait(3000);
+         // await hlyysp()
+          //await $.wait(3000);
+         // await hlyyfx()
+          //await $.wait(3000);
+         // await hlyyfxpj()
+         // await $.wait(3000);
+         // await hlyytg()
+         // await $.wait(3000);
+         // await hlyytgfb()
+         // await $.wait(3000);
           await hlyyzslb()
           await $.wait(3000);
-          await hlyyzs()
-          await $.wait(3000);
-          await hlyyxx()
+         // await hlyyzs()
+         // await $.wait(3000);
+         // await hlyyxx()
           await hlyyme()
           await hlyytx()
   }
@@ -173,7 +173,7 @@ console.log('葫芦音乐获取用户信息失败 已停止当前账号运行!')
 }
 
 
-/*//葫芦音乐签到
+//葫芦音乐签到
 function hlyyqd(timeout = 0) {
   return new Promise((resolve) => {
 let url = {
@@ -575,7 +575,7 @@ let url = {
         }
     },timeout)
   })
-}*/
+}
 
 //葫芦音乐信息
 function hlyyxx(timeout = 0) {
